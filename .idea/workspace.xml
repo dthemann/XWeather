@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="011bad8d-3697-4af1-bca2-3f1981d96f97" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/fhtwoode/xweather/Data/Car.java" afterDir="false" />
+    <list default="true" id="011bad8d-3697-4af1-bca2-3f1981d96f97" name="Changes" comment="update">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/fhtwoode/xweather/Data/Configuration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/fhtwoode/xweather/Data/Weather.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dev/fhtwoode/xweather/Controller/frm_configurateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/fhtwoode/xweather/Controller/frm_configurateController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/fhtwoode/xweather/Data/Car.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dev/fhtwoode/xweather/Data/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/fhtwoode/xweather/Data/Location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/fhtwoode/xweather/XWeather.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/fhtwoode/xweather/XWeather.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +55,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/dominik/Documents/OODE/XWeather",
+    "last_opened_file_path": "/home/dominik/Documents/OODE/WeatherX",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -99,7 +103,8 @@
       <option name="presentableId" value="Default" />
       <updated>1674375594372</updated>
       <workItem from="1674375595827" duration="13917000" />
-      <workItem from="1674393882747" duration="9306000" />
+      <workItem from="1674393882747" duration="15396000" />
+      <workItem from="1674413574029" duration="1324000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1674396733497</created>
@@ -108,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674396733497</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update">
+      <created>1674403931991</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674403931991</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,25 +139,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/dev/fhtwoode/xweather/Controller/frm_configurateController.java</url>
-          <line>243</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/dev/fhtwoode/xweather/Controller/frm_configurateController.java</url>
-          <line>235</line>
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/dev/fhtwoode/xweather/Controller/frm_configurateController.java</url>
-          <line>240</line>
-          <option name="timeStamp" value="27" />
+          <line>185</line>
+          <option name="timeStamp" value="32" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -1,5 +1,6 @@
 package dev.fhtwoode.xweather;
 
+import dev.fhtwoode.xweather.Data.Configuration;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -11,6 +12,7 @@ import java.util.Properties;
 import java.io.IOException;
 
 public class XWeather extends Application {
+
     @Override
     public void start(Stage stage) throws IOException {
 
@@ -18,10 +20,12 @@ public class XWeather extends Application {
         Scene scene = new Scene(fxmlLoader.load(), 800, 400);
         stage.setScene(scene);
         stage.show();
+
     }
 
     public static void main(String[] args) {
 
         launch();
     }
+
 }

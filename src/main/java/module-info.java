@@ -10,4 +10,6 @@ module dev.fhtwoode.xweather {
     exports dev.fhtwoode.xweather;
     exports dev.fhtwoode.xweather.Controller;
     opens dev.fhtwoode.xweather.Controller to javafx.fxml;
+    exports dev.fhtwoode.xweather.Data;
+    opens dev.fhtwoode.xweather.Data to javafx.fxml;
 }
