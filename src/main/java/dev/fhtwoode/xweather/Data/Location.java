@@ -5,6 +5,26 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class Location {
 
+    public double latitude;
+    public double longitude;
+    public String type;
+    public String name;
+    public Object number;
+    public Object postal_code;
+    public Object street;
+    public double confidence;
+    public String region;
+    public String region_code;
+    public String county;
+    public String locality;
+    public String administrative_area;
+    public Object neighbourhood;
+    public String country;
+    public String country_code;
+    public String continent;
+    public String label;
+
+    /*
     @JsonProperty("latitude")
     public double getLatitude() {
         return this.latitude; }
@@ -113,5 +133,5 @@ public class Location {
         return this.label; }
     public void setLabel(String label) {
         this.label = label; }
-    String label;
+    String label;*/
 }
