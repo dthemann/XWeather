@@ -4,7 +4,6 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import dev.fhtwoode.xweather.Data.Location;
 
 import com.fasterxml.jackson.core.JsonParseException;
-import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView;
 import javafx.collections.FXCollections;
@@ -18,10 +17,7 @@ import javafx.scene.control.RadioButton;
 import javafx.scene.control.TextField;
 import javafx.scene.input.MouseEvent;
 
-import java.io.ByteArrayOutputStream;
 import java.io.IOException;
-import java.io.InputStream;
-import java.nio.charset.StandardCharsets;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -66,7 +62,7 @@ public class frm_configurateController {
     private Label lb_locsetup_log;
 
     @FXML
-    private ListView<?> lv_Locations;
+    private ListView<String> lv_Locations;
 
     @FXML
     private RadioButton rb_imperialunits;
@@ -111,9 +107,14 @@ public class frm_configurateController {
         try {
             List<Location> API_return = mapLocationstoList(getLocationsJsonString(searchLocationtext));
 
-            ObservableList list = FXCollections.observableList(API_return);
+            ObservableList<String> ob_list = FXCollections.observableArrayList();
 
-            lv_Locations.setItems(list);
+            for (Location temp :  API_return)
+            {
+                ob_list.add(temp.getLabel() + " | " + temp.getAdministrative_area() + " | Lat:" + temp.getLatitude() + " | Lng:" + temp.getLongitude());
+            }
+
+            lv_Locations.setItems(ob_list);
 
         } catch (Exception e)
         {
@@ -124,6 +125,13 @@ public class frm_configurateController {
 
     @FXML
     void bt_selectLocationButtonClicked(MouseEvent event) {
+
+        String location = lv_Locations.getSelectionModel().getSelectedItem();
+        Double new_lat = Double.parseDouble(location.substring(location.indexOf("Lat:") + 1, location.indexOf("|", location.indexOf("Lat:"))));
+        Double new_lng = Double.parseDouble(location.substring(location.indexOf("Lng:") + 1, location.length()));
+
+        System.out.println("Selected Lat: " + new_lat);
+        System.out.println("Selected Lng: " + new_lng);
 
     }
 

@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="011bad8d-3697-4af1-bca2-3f1981d96f97" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/fhtwoode/xweather/Data/Configuration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/fhtwoode/xweather/Data/Weather.java" afterDir="false" />
+    <list default="true" id="011bad8d-3697-4af1-bca2-3f1981d96f97" name="Changes" comment="Location search workspace">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dev/fhtwoode/xweather/Controller/frm_configurateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/fhtwoode/xweather/Controller/frm_configurateController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/fhtwoode/xweather/Data/Car.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dev/fhtwoode/xweather/Data/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/fhtwoode/xweather/Data/Location.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/fhtwoode/xweather/XWeather.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/fhtwoode/xweather/XWeather.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,15 +50,16 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/dominik/Documents/OODE/WeatherX",
+    "last_opened_file_path": "/home/dominik/Documents/OODE/XWeather",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.39165187",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -104,7 +100,8 @@
       <updated>1674375594372</updated>
       <workItem from="1674375595827" duration="13917000" />
       <workItem from="1674393882747" duration="15396000" />
-      <workItem from="1674413574029" duration="1324000" />
+      <workItem from="1674413574029" duration="1593000" />
+      <workItem from="1674475609154" duration="4425000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1674396733497</created>
@@ -120,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674403931991</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Location search workspace">
+      <created>1674415026679</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674415026679</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,18 +144,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="Location search workspace" />
+    <option name="LAST_COMMIT_MESSAGE" value="Location search workspace" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/dev/fhtwoode/xweather/Controller/frm_configurateController.java</url>
-          <line>185</line>
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="new_node" />
